@@ -1,20 +1,20 @@
 doctype html
 html
   head
-    title Join the #{community} community on Slack!
+    title Slackの #{community} に参加しましょう!
     style.
       body {
         padding: 50px;
-        font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
       }
       input {
         font-size: 24px;
         width: 400px;
       }
   body
-    h1 Join the #{community} community on Slack!
+    h1 Slackの #{community} コミュニティに参加しましょう!
     form(method="POST", action="/invite")#join-form
-      input(type="text", name="email", placeholder="Enter your email")#slack-email
+      input(type="text", name="email", placeholder="招待用メールアドレスを入力してください")#slack-email
+      button(class="btn", data-action="/invite") 招待メールを送る
     script.
       var form = document.getElementById('join-form');
       var email = document.getElementById('slack-email')
