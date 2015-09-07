@@ -3,6 +3,7 @@ module.exports = {
   community: process.env.COMMUNITY_NAME || 'YOUR-TEAM-NAME',
   // your slack team url (ex: socketio.slack.com)
   slackUrl: process.env.SLACK_URL || 'YOUR-TEAM.slack.com',
+  description: process.env.DESCRIPTION || 'YOUR-DESCRIPTION',
   // access token of slack
   // You can generate it in https://api.slack.com/web#auth
   //

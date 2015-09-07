@@ -12,6 +12,7 @@ html
       }
   body
     h1 Slackの #{community} コミュニティに参加しましょう!
+    p #{description}
     form(method="POST", action="/invite")#join-form
       input(type="text", name="email", placeholder="招待用メールアドレスを入力してください")#slack-email
       button(class="btn", data-action="/invite") 招待メールを送る

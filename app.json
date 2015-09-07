@@ -8,6 +8,10 @@
       "description": "Your team name",
       "value": "YOUR TEAM NAME"
     },
+    "DESCRIPTION": {
+      "description": "Your team description",
+      "value": "YOUR TEAM DESCRIPTION"
+    },
     "SLACK_URL": {
       "description": "Your slack url(ex: socketio.slack.com)",
       "value": "YOUR-TEAM.slack.com"
