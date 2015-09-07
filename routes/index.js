@@ -4,7 +4,7 @@ var request = require('request');
 var config = require('../config');
 
 router.get('/', function(req, res) {
-  res.render('index', { community: config.community }, { description: config.description });
+  res.render('index', { community: config.community, description: config.description });
 });
 
 router.post('/invite', function(req, res) {
